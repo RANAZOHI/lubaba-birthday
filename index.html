@@ -313,7 +313,7 @@
   <canvas id="bg"></canvas>
   <div class="stage" id="stage">
 
-    <section class="step theme-dark" data-step="0">
+    <section class="step theme-dark" data-step="0" id="introStep">
       <div class="eyebrow">✨ a little world made for you</div>
       <h1 class="name" id="nameHeading">Jana</h1>
       <div class="badge" id="ageBadge">17 & Shining ✨</div>
@@ -380,7 +380,7 @@
     <section class="step theme-light" data-step="7">
       <div class="eyebrow" style="color:#ec4899;">❤ A Message From My Heart</div>
       <div class="letter-card">
-        <p>Dear <span id="letterName">Lubaba</span>,</p>
+        <p>Dear <span id="letterName">Ramla</span>,</p>
         <p>Happy <span id="letterAge">17</span>th birthday! 🎉 There's no one quite like you, and I'm so proud to call you my sister.</p>
         <p>You bring so much light, laughter and warmth into our home. Watching you grow into the kind, brilliant person you are today has been such a joy.</p>
         <p>May this year bring you every dream you've been chasing, endless smiles, and the sweetest surprises. Never stop shining exactly the way you do.</p>
@@ -423,8 +423,8 @@
 </div>
 
 <script>
-const NAME = چھوٹی خنساء";
-const AGE  = 15;
+const NAME = "Ramla";
+const AGE  = 17;
 
 document.querySelectorAll('#nameHeading,#subName,#crownName,#mainName,#ageName,#letterName').forEach(el=>el.textContent=NAME);
 document.querySelectorAll('#ageNumber,#letterAge').forEach(el=>el.textContent=AGE);
